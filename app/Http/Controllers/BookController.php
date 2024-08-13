@@ -33,8 +33,7 @@ class BookController extends Controller
             cache()->remember(
                 $cacheKey,
                 3600,
-                fn() =>
-                $books->get()
+                fn() => $books->get()
             );
 
         return view('books.index', ['books' => $books]);

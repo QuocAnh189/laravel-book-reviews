@@ -6,7 +6,6 @@
   <title>Book Reviews</title>
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
 
-  {{-- blade-formatter-disable --}}
   <style type="text/tailwindcss">
     .btn {
       @apply bg-white rounded-md px-4 py-2 text-center font-medium text-slate-500 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50 h-10;
@@ -60,7 +59,6 @@
       @apply text-slate-500 underline;
     }
   </style>
-  {{-- blade-formatter-enable --}}
 </head>
 
 <body class="container mx-auto mt-10 mb-10 max-w-3xl">
